@@ -13,11 +13,7 @@ public class GenerateElements : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        for ( int i = 0; i < 10000; i++) {
-            GameObject go = Instantiate(prefab, spawnCoords, Quaternion.identity, gameObject.transform) as GameObject;
-            planes.Add(go);
-            spawnCoords.x += planeLength;
-        }
+        
     }
 	
 	// Update is called once per frame
